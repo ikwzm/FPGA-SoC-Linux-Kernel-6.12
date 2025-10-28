@@ -374,7 +374,7 @@ CONFIG_NEON=y
 ### ----------------------------------------------------------------------------
 ### Enable seccomp to safely execute untrusted bytecode
 ### ----------------------------------------------------------------------------
-# CONFIG_SECCOMP is not set
+CONFIG_SECCOMP=y
 
 ## end of General architecture-dependent options
 
