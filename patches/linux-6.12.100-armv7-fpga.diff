@@ -5,7 +5,7 @@ index d4c679b2d..0c29d27fc 100644
 @@ -2,7 +2,7 @@
  VERSION = 6
  PATCHLEVEL = 12
- SUBLEVEL = 55
+ SUBLEVEL = 100
 -EXTRAVERSION =
 +EXTRAVERSION = -armv7-fpga
  NAME = Baby Opossum Posse

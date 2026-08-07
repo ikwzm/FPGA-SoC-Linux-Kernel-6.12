@@ -1,8 +1,8 @@
 diff --git a/scripts/package/builddeb b/scripts/package/builddeb
-index fb686fd32..c91e414f3 100755
+index 1d7d4838e..f1b4f6691 100755
 --- a/scripts/package/builddeb
 +++ b/scripts/package/builddeb
-@@ -131,6 +131,22 @@ install_kernel_headers () {
+@@ -137,6 +137,22 @@ install_kernel_headers () {
  	ln -s /usr/src/linux-headers-$version $pdir/lib/modules/$version/build
  }
  
@@ -25,7 +25,7 @@ index fb686fd32..c91e414f3 100755
  install_libc_headers () {
  	pdir=debian/$1
  
-@@ -152,5 +168,5 @@ linux-image-*|user-mode-linux-*)
+@@ -158,5 +174,5 @@ linux-image-*|user-mode-linux-*)
  linux-libc-dev)
  	install_libc_headers "${package}";;
  linux-headers-*)
