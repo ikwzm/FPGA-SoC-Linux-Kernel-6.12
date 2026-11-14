@@ -2,7 +2,7 @@
 
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
 REPO_DIR=$(cd $(dirname $0); cd .. ; pwd)
-KERNEL_VERSION=6.12.114
+KERNEL_VERSION=6.12.115
 EXTRA_VERSION=-armv7-fpga
 LOCAL_VERSION=
 BUILD_VERSION=1
